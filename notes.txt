@@ -1,0 +1,6 @@
+{EnquityDTO} => PromotionsFilter
+                Product => Promotions
+
+Promotion
+- Does this apply?
+- Add to the EnquityDTO of Modify the DTO
