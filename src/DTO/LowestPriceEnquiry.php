@@ -2,7 +2,7 @@
 
 namespace App\DTO;
 
-class LowestPriceEnquiry implements PromotionEnquiryInterface
+class LowestPriceEnquiry implements PromotionsEnquiryInterface
 {
     private ?int $productId;
     private ?int $quantity;
