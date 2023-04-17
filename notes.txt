@@ -4,3 +4,15 @@
 Promotion
 - Does this apply?
 - Add to the EnquityDTO of Modify the DTO
+
+
+=============== DOCKER ====================
+
+php bin/console make:docker:database
+docker-compose up -d
+
+symfony console make:migration
+symfony console doctrine:migrations:migrate
+
+volumes:
+- database_data:/var/lib/postgresql/data:rw
